@@ -1,5 +1,6 @@
 # Ejercicio-tema-9-OpenBootcamp
-Ejercicio tema 9 
+Ejercicio tema 9
+
 public class Persona {
     private int edad;
     private String nombre;
@@ -54,10 +55,7 @@ public class Trabajador extends Persona {
     }
 }
 
-// En el método main:
-
 public static void main(String[] args) {
-    // Crear objeto Cliente
     Cliente cliente = new Cliente();
     cliente.setEdad(35);
     cliente.setNombre("Ana");
@@ -69,7 +67,6 @@ public static void main(String[] args) {
     System.out.println("Teléfono: " + cliente.getTelefono());
     System.out.println("Crédito: " + cliente.getCredito());
 
-    // Crear objeto Trabajador
     Trabajador trabajador = new Trabajador();
     trabajador.setEdad(28);
     trabajador.setNombre("Pedro");
